@@ -1,0 +1,31 @@
+{
+    "name": "scops/nova-breadcrumb-card",
+    "description": "A Laravel nova card that can be used as a breadcrumb to facilitate navigation between pages",
+    "keywords": [
+        "laravel",
+        "nova",
+	"breadcrumb",
+	"navigation"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scops\\NovaBreadcrumbCard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Scops\\NovaBreadcrumbCard\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
